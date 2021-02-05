@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Firefox and Chromium Security | Madaidan's Insecurities</title>
+</head>
+
+<body>
+  <h1>Everything wrong with Discord</h1>
+  
+  <p>
+  Discord is a hell hole of security issues, privacy nightmares, and just generally terrible things. <li class="link"><a href="https://cadence.moe/blog/2020-06-06-why-you-shouldnt-trust-discord">You can read all about it at this link.</a>
+  <br>You can, however, mitigate a lot of the telemetry collection (which still happens even if you turn it off in Discord settings) by running Discord in your browser and blocking the following:
+  <br>
+  https://discord.com/api/v8/science
+  <br>
+  https://discord.com/api/v8/channels/*/typing
+  </p>
+
+
+
+  <button onclick="setDarkMode()" class="dark-mode-toggle">🌓</button>
+  <script type="text/javascript" src="toggle.js"></script>
+</body>
+</html>
